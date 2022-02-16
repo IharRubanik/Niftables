@@ -3439,7 +3439,9 @@ margin: 0 0 0 140px;
 
 .square-mini img{
   width: 100%;
-  margin: 0px auto;
+}
+.square-mobile{
+  display: none;
 }
 
 @keyframes square2{
@@ -3482,8 +3484,12 @@ transform: translateX(0%);
 }
 
 .media-about{
+  margin-top: 200px;
   color: #fff; 
-  padding-top: 216px;
+  /* padding-top: 216px; */
+  width: 100%;
+  background: radial-gradient(60.45% 76.17% at -5.8% 40.18%, #16A9FE 0%, rgba(22, 169, 254, 0) 100%), radial-gradient(101.15% 101.15% at 50% 101.15%, #0342E7 0%, #CB24FF 53.65%);
+  padding: 0;
 }
 
 .media-about h3{
@@ -3492,21 +3498,44 @@ font-style: normal;
 font-size: 18px;
 line-height: 34px;
 text-transform: uppercase;
+position: absolute;
+margin-top: -70px;
+}
+.media-about h3::after{
+  display: block;
+  content: "";
+  height: 34px;
+  width: 1px;
+  /* background:white; */
+  border-left: dashed 2px white;
+  z-index: -1;
+
 }
 .media-about-slider{
   position: relative;
   height: 155px;
   width: 100%;
-  background: radial-gradient(60.45% 76.17% at -5.8% 40.18%, #16A9FE 0%, rgba(22, 169, 254, 0) 100%), radial-gradient(101.15% 101.15% at 50% 101.15%, #0342E7 0%, #CB24FF 53.65%);
+  
   /* background-image: url(./img/media_about/media-about_rectangle.png) */
 }
-.slide-min{
+.media-about-slide-min{
   margin-top: 40px;
   width: 160px;
   height: 75px;
   background:white;
+  transition: 0.2s;
 }
 
+
+.media-about-slide-min img{
+width: 100%;
+margin: 0 auto;
+/* z-index: 10 ; */
+}
+.media-about-slide-min:hover{
+  cursor: pointer;
+  transform: scale(1.15);
+}
 
 .footer {
   padding: 140px 0 0 0;
@@ -3996,6 +4025,13 @@ text-transform: uppercase;
     width: calc(100% / 0.8);
     height: calc(100% / 0.8);
   }
+  .media-about{
+    transform: scale(0.8);
+    -webkit-transform-origin: left top;
+    transform-origin: left top;
+    width: calc(100% / 0.8);
+    height: calc(100% / 0.8);
+  }
   .footer {
     -webkit-transform: scale(0.8);
             transform: scale(0.8);
@@ -4007,6 +4043,7 @@ text-transform: uppercase;
     /* margin-top: -400px; */
   }
 }
+
 
 @media (max-width: 1130px) {
   .container {
@@ -5008,11 +5045,11 @@ text-transform: uppercase;
   .tokenomics-accordeon__item {
     max-width: 500px;
   }
-.square{
-  grid-template-columns: repeat(4, 200px);
-  /* grid-column-gap: 10px; */
-  margin: 0 auto;
-}
+  
+  .partners-button-prev,
+  .partners-button-next{
+display: none;
+  }
 
 
   .footer {
@@ -5100,6 +5137,24 @@ text-transform: uppercase;
   .features {
     padding: 100px 0 80px;
   }
+  .partners-slide{
+    height: auto;
+  }
+  .square{
+    display: none;
+  }
+  .square-mobile{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+  }
+  .square-mobile .square-mini {
+    margin: 0 auto;
+  }
+
+
+
   .footer .after {
     bottom: 0;
     right: -188px;

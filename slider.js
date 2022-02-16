@@ -7,14 +7,28 @@ new Swiper('.partners-slider', {
 });
 
 new Swiper('.media-about-slider', {
-    navigation: {
-        nextEl: '.media-about-button-next',
-        prevEl: '.media-about-button-prev',
-    },
+    slidesPerView: 8,
     loop: true,
-    slidesPerView: 9,
+   
     autoplay: {
-        delay: 1000,
-    }
-    
+        delay: 2000,
+    },
+    breakpoints: {
+        375: {
+            slidesPerView: 2,
+        },
+        768: {
+            slidesPerView: 4.1,
+        },
+        1024: {
+            slidesPerView: 5.5,
+        },
+        1025:{
+            slidesPerView: 6.5,
+        },
+        1220: {
+            slidesPerView: 8,
+        }
+
+    },
 });
