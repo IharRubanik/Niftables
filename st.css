@@ -1146,6 +1146,7 @@ ul {
   -ms-flex-align: start;
   align-items: flex-start;
   padding: 0;
+  max-width: 1467px;
 }
 
 .header-content__nav {
@@ -1295,7 +1296,7 @@ ul {
 
 .header-subscribe {
   position: absolute;
-  right: 40px;
+  right: 200px;
   bottom: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1420,7 +1421,7 @@ ul {
 }
 
 .main {
-  padding: 257px 0 90px;
+  padding: 257px 0 150px;
   width: 100%;
   position: relative;
 }
@@ -1852,7 +1853,7 @@ ul {
 }
 
 .about {
-  padding: 160px 0 218px;
+  padding: 100px 0 218px;
   color: #fff;
   max-height: 970px;
   display: -webkit-box;
@@ -1951,16 +1952,16 @@ ul {
 .about-circle:before {
   width: 450px;
   height: 450px;
-  -webkit-animation: rotate-1 10s linear infinite;
-  animation: rotate-1 10s linear infinite;
+  -webkit-animation: rotate-1 10s linear infinite reverse;
+  animation: rotate-1 10s linear infinite reverse;
   content: url(img/about/gradient-circle.svg);
 }
 
 .about-circle:after {
   width: 521px;
   height: 521px;
-  -webkit-animation: rotate-2 15s linear infinite;
-  animation: rotate-2 15s linear infinite;
+  -webkit-animation: rotate-2 15s linear infinite reverse;
+  animation: rotate-2 15s linear infinite reverse;
   content: url(img/about/text-circle.svg);
 }
 
@@ -3486,8 +3487,9 @@ transform: translateX(0%);
 .media-about{
   margin-top: 200px;
   color: #fff; 
-  background-image: url(./img/media_about/media-about-bg.png);
-  
+  background: radial-gradient(60.45% 76.17% at -5.8% 40.18%, #16A9FE 0%, rgba(22, 169, 254, 0) 100%), radial-gradient(101.15% 101.15% at 50% 101.15%, #0342E7 0%, #CB24FF 53.65%);
+  /* background-image: url(./img/media_about/media-about-bg.png);
+   */
 }
 
 .media-about h3{
@@ -3513,8 +3515,6 @@ margin-top: -70px;
   position: relative;
   height: 155px;
   width: 100%;
-  
-  /* background-image: url(./img/media_about/media-about_rectangle.png) */
 }
 .media-about-slide-min{
   margin-top: 40px;
