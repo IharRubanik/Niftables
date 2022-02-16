@@ -3905,14 +3905,17 @@ margin: 0 auto;
     -webkit-transform: scale(0.8);
             transform: scale(0.8);
   }
+  
   .main {
-    padding: 208px 0 72px;
+    padding: 208px 0 0px;
   }
   .header-name {
     -webkit-transform: scale(0.8);
             transform: scale(0.8);
     -webkit-transform-origin: left top;
             transform-origin: left top;
+            margin-top: -4px;
+            margin-left: -19px;
   }
   .header-inner {
     width: 56px;
@@ -4007,10 +4010,10 @@ margin: 0 auto;
             transform-origin: left top;
     width: calc(100% / 0.8);
     height: calc(100% / 0.8);
-    padding: 120px 0px 0px;
+    padding: 60px 0px 0px;
   }
   .tokenomics-accordeon {
-    min-height: 370px;
+    min-height: 425px;
   }
   .tokenomics-infographics__item {
     padding: 44px 10px 44px;
@@ -4023,6 +4026,7 @@ margin: 0 auto;
     transform-origin: left top;
     width: calc(100% / 0.8);
     height: calc(100% / 0.8);
+    padding-top: 140px;
   }
   .media-about{
     transform: scale(0.8);
@@ -4030,6 +4034,7 @@ margin: 0 auto;
     transform-origin: left top;
     width: calc(100% / 0.8);
     height: calc(100% / 0.8);
+    margin-top: 120px;
   }
   .footer {
     -webkit-transform: scale(0.8);
@@ -4038,8 +4043,7 @@ margin: 0 auto;
             transform-origin: left bottom;
     width: calc(100% / 0.8);
     height: calc(100% / 0.8);
-    padding: 100px 0 0 0;
-    /* margin-top: -400px; */
+    padding: 50px 0 0 0;
   }
 }
 
