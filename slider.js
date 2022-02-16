@@ -38,7 +38,7 @@ new Swiper('.media-about-slider', {
             slidesPerView: 3.2,
         },
         768: {
-            slidesPerView: 4.1,
+            slidesPerView: 4.9,
         },
         1024: {
             slidesPerView: 4.8,
