@@ -4057,7 +4057,10 @@ margin: 0 auto;
 }
 
 @media (min-width: 1280px) and (max-width: 1366px) {
-.main-info{
+  .header-content__nav{
+    margin-right: 125px;
+  }
+  .main-info{
   top: -20px;
 }
 .main{
@@ -4069,12 +4072,18 @@ margin: 0 auto;
 .process-parent__sticky{
   padding: 70px 0px 120px;
 }
+.features{
+  padding: 60px 0px 100px;
+}
 .vision-sticky{
   padding: 60px 0px 120px;
 }
 .partners {
-  padding-top: 30px;
+  padding-top: 10px;
   
+}
+.partners .partners-title p{
+  margin: 0 0 8px 125px;
 }
 .footer{
   padding-top: 0px;
@@ -4396,8 +4405,18 @@ margin: 0 auto;
   .tokenomics-infographics__item .tokenomics-item__info span {
     min-height: auto;
   }
+  .partners{
+    padding-top: 140px;
+  }
+  .partners .partners-title p {
+    font-size: 22px;
+    line-height: 36px;
+  }
+  .media-about{
+    margin-top: 30px;
+  }
   .footer {
-    padding-top: 220px;
+    padding-top: 170px;
   }
   .footer-inner {
     margin-top: 60px;
@@ -4448,6 +4467,13 @@ margin: 0 auto;
     margin: 23px 0 13px;
     font-size: 18px;
   }
+  .footer-contact__item a span {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .footer-subscribe__block{
+  margin-right: 110px;
+}
 }
 
 @media (max-width: 1024px) {
@@ -4786,9 +4812,7 @@ margin: 0 auto;
     width: 30px;
     height: 30px;
   }
-  .footer {
-    padding-top: 20px;
-  }
+ 
   .footer .container {
     -webkit-transform: none;
     transform: none;

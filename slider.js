@@ -41,7 +41,7 @@ new Swiper('.media-about-slider', {
             slidesPerView: 4.1,
         },
         1024: {
-            slidesPerView: 5.5,
+            slidesPerView: 4.8,
         },
         1025:{
             slidesPerView: 6.5,
