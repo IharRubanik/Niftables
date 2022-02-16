@@ -15,7 +15,7 @@ new Swiper('.media-about-slider', {
     },
     breakpoints: {
         375: {
-            slidesPerView: 1.9,
+            slidesPerView: 2.5,
         },
         400: {
             slidesPerView: 2.2,
