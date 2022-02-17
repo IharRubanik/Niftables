@@ -3318,7 +3318,7 @@ ul {
   box-sizing: content-box;
   position: relative;
   text-align: center;
-  min-height: 180px;
+  min-height: 182px;
   gap: 7px;
 }
 
@@ -3534,6 +3534,7 @@ ul {
 
 .square-mini img {
   width: 100%;
+  margin-bottom: 2px;
 }
 .square-mobile {
   display: none;
