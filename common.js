@@ -4046,8 +4046,8 @@
 
 new Swiper('.partners-slider', {
   navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: '.partners-button-next',
+      prevEl: '.partners-button-prev',
   },
   loop: true,
 });
