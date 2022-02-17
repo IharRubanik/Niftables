@@ -2672,6 +2672,7 @@ ul {
   transition: -webkit-transform 0.2s ease-in;
   transition: transform 0.2s ease-in;
   transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
+  transition: 0.2s;
 }
 
 .features-scroller__info div h3 {
