@@ -4004,8 +4004,12 @@ ul {
     transform-origin: center left;
     -webkit-transform: scale(0.8);
     transform: scale(0.8);
+    min-height: auto;
+     padding: 130px 40px 100px;
   }
-
+  .header-subscribe {
+    bottom: -100px;
+  }
   .main {
     padding: 208px 0 0px;
   }
@@ -4167,16 +4171,16 @@ ul {
     padding-bottom: 30px;
   }
   .about {
-    padding: 100px 0px 174px;
+    padding: 170px 0px 174px;
   }
   .process-parent__sticky {
-    padding: 70px 0px 120px;
+    padding: 0px 0px 120px;
   }
   .features {
-    padding: 60px 0px 100px;
+    padding: 60px 0px 160px;
   }
   .vision-sticky {
-    padding: 60px 0px 120px;
+    padding: 0px 0px 120px;
   }
   .partners {
     padding-top: 10px;
