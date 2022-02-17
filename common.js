@@ -4060,6 +4060,9 @@ new Swiper('.media-about-slider', {
       delay: 2000,
   },
   breakpoints: {
+    0: {
+      slidesPerView: 2.3,
+  },
       375: {
           slidesPerView: 2.5,
       },
