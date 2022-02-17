@@ -4184,6 +4184,9 @@ ul {
   .vision-sticky {
     padding: 0px 0px 120px;
   }
+  .vision-sticky::after {
+    top: 155px;
+  }
   .partners {
     padding-top: 10px;
   }
